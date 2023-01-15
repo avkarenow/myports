@@ -1,5 +1,5 @@
 PORTNAME=	swoole
-PORTVERSION=	4.8.12
+PORTVERSION=	5.0.1
 CATEGORIES=	devel net
 
 MAINTAINER=	vanilla@FreeBSD.org
@@ -11,7 +11,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USES=		compiler:c11 localbase:ldflags php:pecl ssl
 USE_PHP=	hash:build pcre
-IGNORE_WITH_PHP=	82
 
 CONFIGURE_ARGS+=	--enable-mysqlnd
 
