@@ -1,5 +1,5 @@
 PORTNAME=	wp-cli
-PORTVERSION=	2.8.1
+PORTVERSION=	2.10.0
 CATEGORIES=	www
 MASTER_SITES=	https://github.com/wp-cli/wp-cli/releases/download/v${DISTVERSION}/
 PKGNAMESUFFIX=	${PHP_PKGNAMESUFFIX}
